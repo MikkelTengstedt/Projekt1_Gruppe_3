@@ -23,6 +23,15 @@
     box-sizing: border-box;
 }
 
+.reklame {
+    display: grid;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    width: 850px;
+    height: 100px;
+    margin: 20px auto;
+}
 
 body {
     background-color: yellowgreen;
