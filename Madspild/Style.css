@@ -23,3 +23,23 @@
     margin-top: 50px;
     padding: 10px;
 }
+.Forum{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.ForumWriteYourStory{
+    width: 400px;
+    height: 200px;
+}
+.ForumStory{
+    display:grid;
+    background-color: darkslategray;
+width: 200px;
+    height: 100%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+
+}
