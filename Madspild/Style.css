@@ -55,3 +55,39 @@
         text-align: center;
 
     }
+.quiz{
+
+}
+
+.OmOs{
+    text-align: center;
+    width: 1080px;
+    height: 500px;
+    background-color: darkolivegreen;
+    padding-left: 10px;
+
+}
+
+.FNVerdensmål{
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    background-color: wheat;
+
+}
+
+.Mission{
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    background-color: wheat;
+
+}
+
+.Vision{
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    background-color: wheat;
+
+}

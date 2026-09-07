@@ -1,5 +1,63 @@
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin: 20px auto;
 }
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 900px;
+    margin: 20px auto;
+}
+
+
+.grid > div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.grid2 > div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.reklame {
+    display: grid;
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    width: 850px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+.motatosInfo {
+    text-align: left;
+    width: 700px;
+
+}
+
+.weeFoodInfo {
+    text-align: right;
+    width: 700px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    padding: 1px;
+    margin: 0 auto;
+}
+
+
+
+
+
 
