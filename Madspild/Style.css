@@ -270,3 +270,13 @@ body {
     border-radius: 10px;
 
 }
+
+.logostribe {
+    display: flex;
+    gap: 10px;
+}
+
+.logostribe img {
+    width: 150px;
+    height: 100px;
+}
