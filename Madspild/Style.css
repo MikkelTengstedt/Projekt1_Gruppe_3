@@ -54,23 +54,29 @@
 }
 
 .Footer img {
-    width: 85px;
-    height: 23px;
-    margin-left: 1525px;
-    margin-top: 25px;
+    width: 6%;
+    height: auto;
+    float:left;
 }
 
 
 .Footer {
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
+    text-align:left;
     background-color: darkolivegreen;
-    margin-top: 240px;
-    bottom: 0;
-    padding: 3px;
-    height: 50px;
+    margin-top:45vh;
+    bottom:0;
+    padding-bottom: 2vh;
+    padding-right:2vw;
+    height:5vh;
+    width:97vw;
     border-radius: 5px;
+}
+
+.footerText {
+    padding-top:2vh;
+    text-align: center;
+    font-size:1vw;
+    width:100%;
 }
 
 
