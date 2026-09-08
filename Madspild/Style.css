@@ -91,3 +91,54 @@
     background-color: wheat;
 
 }
+
+.gridKontaktOs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.KontaktOsBox {
+    margin-top: 50px;
+    background-color: darkslategrey;
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.KontaktOsPicture {
+    width: 275px;
+    height: 450px;
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.KontaktOsName {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    color: rgb(227,187,112);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.KontaktOsJob {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.KontaktOsText {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
