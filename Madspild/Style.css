@@ -63,7 +63,7 @@
     text-align: center;
     width: 1080px;
     height: 500px;
-    background-color: darkolivegreen;
+    background-color: yellowgreen;
     padding-left: 10px;
 
 }
@@ -90,4 +90,8 @@
     height: 70px;
     background-color: wheat;
 
+}
+
+body{
+    background-color: yellowgreen;
 }
