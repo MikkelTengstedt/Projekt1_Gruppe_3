@@ -1,11 +1,9 @@
 .Menu {
     overflow: hidden;
     background-color: darkolivegreen;
-    border-radius: 5px;
-    height: 100px;
-}
-
-.Menu a {
+    border-radius:5px;
+    height:10vh;
+    width:99.5vw;
 }
 
 .Menu a:hover {
@@ -14,55 +12,45 @@
     border-radius: 5px;
 }
 
-.smallMenu {
-    right: 8px;
-    top: 10px;
-    position: absolute;
-}
 
-.smallMenu a {
-    float: left;
-    font-size: 14px;
+.smallMenu a{
+    padding:0.4vw;
+    float:left;
+    font-size:0.7vw;
     text-align: center;
-    padding: 4px 10px;
     text-decoration: none;
     color: antiquewhite;
 }
 
-.bigMenu {
-    position: absolute;
-    left: 100px;
-    margin-left: 8px;
-    margin-right: 50px;
-    margin-top: 15px;
+.bigMenu{
+    left:5%;
+    margin-left:1%;
 }
 
-.bigMenu a {
-    float: left;
-    font-size: 45px;
+.bigMenu a{
+    float:left;
+    font-size:2.5vw;
     text-align: center;
-    padding: 9px 40px;
+    padding: 1.5% 3%;
     text-decoration: none;
     color: antiquewhite;
 }
 
-.Menu:hover {
-
-}
 
 .Logo {
-    width: 100px;
-    height: 100px;
-    float: left;
-    padding-right: 0;
+    width: 6%;
+    height: 100%;
+    float:left;
+    padding-right:0;
 }
 
 .soMePic {
-    width: 69px;
-    height: 17px;
-    float: right;
-    margin-top: 25px;
-    margin-right: 5px;
+    width: 5%;
+    height: auto;
+    float:right;
+    margin-top:3vh;
+    margin-right:0.1vw;
+    padding:0.1%
 }
 
 .Footer img {
