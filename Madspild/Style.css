@@ -280,3 +280,8 @@ body {
     width: 150px;
     height: 100px;
 }
+
+.fedoverskrift {
+    font-size: 20px;
+    font-weight: bold;
+}
