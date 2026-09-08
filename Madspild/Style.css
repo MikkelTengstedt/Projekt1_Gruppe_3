@@ -1,21 +1,23 @@
-.Menu{
+.Menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: darkolivegreen;
     padding: 15px 30px;
 }
-.Logo{
+
+.Logo {
     width: 100px;
     height: 100px;
 }
-.Links{
+
+.Links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 
-.Footer{
+.Footer {
     display: flex;
     justify-content: flex-start;
     align-content: center;
@@ -24,6 +26,35 @@
     padding: 10px;
 }
 
+.gridEvent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+    .EventBox {
+    margin-top: 50px;
+    background-color: blue;
+    width: 350px;
+    height: 500px;
+}
+
+    .EventPicture {
+        width: 100%;
+        height: 60%;
+
+    }
+
+    .EventText {
+        background-color: gray;
+        color: white;
+
+    }
+
+    .EventLinkText {
+        text-align: center;
+
+    }
 .quiz{
 
 }
