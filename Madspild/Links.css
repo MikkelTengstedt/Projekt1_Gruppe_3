@@ -33,6 +33,7 @@
     margin: 20px auto;
 }
 
+/* yellowgreen hex : 9ACD32FF */
 body {
     background-color: yellowgreen;
 }
@@ -56,7 +57,33 @@ body {
     margin: 0 auto;
 }
 
+.Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkolivegreen;
+    padding: 15px 30px;
+}
 
+.Logo {
+    width: 100px;
+    height: 100px;
+}
+
+.Links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.Footer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: darkolivegreen;
+    margin-top: 50px;
+    padding: 10px;
+}
 
 
 
