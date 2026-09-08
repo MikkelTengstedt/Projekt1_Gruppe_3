@@ -3,6 +3,9 @@
     grid-template-columns: 1fr 1fr;
     width: 900px;
     margin: 20px auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .grid2 {
@@ -10,23 +13,14 @@
     grid-template-columns: 1fr 1fr;
     width: 900px;
     margin: 20px auto;
-}
-
-
-.grid > div {
     border: 1px solid black;
     box-sizing: border-box;
-}
-
-.grid2 > div {
-    border: 1px solid black;
-    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .reklame {
     display: grid;
     border: 1px solid black;
-    margin: 0 auto;
     text-align: center;
     width: 850px;
     height: 100px;
@@ -39,50 +33,42 @@ body {
 }
 
 .motatosInfo {
-    text-align: left;
     width: 700px;
-
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    line-height: 1.4;
 }
 
 .weeFoodInfo {
-    text-align: right;
     width: 700px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    line-height: 1.4;
 }
 
+.motatosInfo {
+    text-align: left;
+    border-left: 1px solid black;
+}
+
+.weeFoodInfo {
+    text-align: left;
+    border-right: 1px solid black;
+}
+
+.logo2 img,
 .logo img {
     width: 200px;
     height: 200px;
     display: block;
-    padding: 1px;
-    margin: 0 auto;
 }
 
-.Menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: darkolivegreen;
-    padding: 15px 30px;
+.logo:hover {
+    transform: rotate(50deg);
 }
 
-.Logo {
-    width: 100px;
-    height: 100px;
-}
-
-.Links {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 20px;
-}
-
-.Footer {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    background-color: darkolivegreen;
-    margin-top: 50px;
-    padding: 10px;
+.logo2:hover {
+    transform: rotate(-50deg);
 }
 
 
