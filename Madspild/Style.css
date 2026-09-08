@@ -9,7 +9,7 @@
 .Menu a:hover {
     background-color: antiquewhite;
     color: limegreen;
-    border-radius:5px;
+    border-radius: 5px;
 }
 
 
@@ -33,7 +33,7 @@
     text-align: center;
     padding: 1.5% 3%;
     text-decoration: none;
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
 
@@ -56,20 +56,20 @@
 .Footer img {
     width: 85px;
     height: 23px;
-    margin-left:1525px;
-    margin-top:25px;
+    margin-left: 1525px;
+    margin-top: 25px;
 }
 
 
 .Footer {
     display: flex;
     justify-content: flex-start;
-    text-align:center;
+    text-align: center;
     background-color: darkolivegreen;
-    margin-top:240px;
-    bottom:0;
+    margin-top: 240px;
+    bottom: 0;
     padding: 3px;
-    height:50px;
+    height: 50px;
     border-radius: 5px;
 }
 
@@ -95,49 +95,59 @@
 .linkBox img {
     width: 90%;
     height: 90%;
-    float:left;
+    float: left;
 }
 
 .linkBoxText {
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     font-size: 20px;
 }
 .gridEvent {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
     justify-items: center;
 
 }
-    .EventBox {
+
+.EventBox {
     margin-top: 50px;
-    background-color: blue;
-    width: 350px;
-    height: 500px;
+    background-color: darkolivegreen;
+        border-radius: 15px;
+    width: 500px;
+    height: 600px;
+        position: relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
     .EventPicture {
         width: 100%;
-        height: 60%;
-
-    }
-
-    .EventText {
-        background-color: gray;
-        color: white;
-
-    }
-
-    .EventLinkText {
-        text-align: center;
-
-    }
-.quiz{
+        height: 70%;
+        border-radius: 15px 15px 0 0;
 
 }
 
-.OmOs{
+    .EventText {
+        color: white;
+        padding:0 15px 0 15px;
+
+    }
+ 
+    .EventLinkText {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+}
+
+.quiz {
+
+}
+
+.OmOs {
     text-align: center;
     width: 1080px;
     height: 500px;
@@ -146,7 +156,7 @@
 
 }
 
-.FNVerdensmål{
+.FNVerdensmål {
     text-align: center;
     width: 600px;
     height: 70px;
@@ -154,7 +164,7 @@
 
 }
 
-.Mission{
+.Mission {
     text-align: center;
     width: 600px;
     height: 70px;
@@ -162,7 +172,7 @@
 
 }
 
-.Vision{
+.Vision {
     text-align: center;
     width: 600px;
     height: 70px;
@@ -170,19 +180,74 @@
 
 }
 
-body{
+.gridKontaktOs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+}
+
+.KontaktOsBox {
+    margin-top: 50px;
+    background-color: darkolivegreen;
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.KontaktOsPicture {
+    width: 275px;
+    height: 450px;
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.KontaktOsName {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    color: rgb(227, 187, 112);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.KontaktOsJob {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.KontaktOsText {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* yellowgreen hex : 9ACD32FF */
+body {
     background-color: yellowgreen;
 }
-.Forum{
+
+.Forum {
     display: flex;
     justify-content: space-between;
     align-content: center;
 
 }
-.ForumWriteYourStory{
+
+.ForumWriteYourStory {
     width: 400px;
     height: 200px;
 }
+
 .ForumStory {
     display: grid;
     background-color: darkslategray;
@@ -192,4 +257,19 @@ body{
     margin: 20px;
     border-radius: 10px;
 
+}
+
+.logostribe {
+    display: flex;
+    gap: 10px;
+}
+
+.logostribe img {
+    width: 150px;
+    height: 100px;
+}
+
+.fedoverskrift {
+    font-size: 20px;
+    font-weight: bold;
 }

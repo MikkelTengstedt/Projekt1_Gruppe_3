@@ -1,3 +1,4 @@
+.grid,
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -29,33 +30,22 @@
     margin: 20px auto;
 }
 
-/* yellowgreen hex : 9ACD32FF */
-body {
-    background-color: yellowgreen;
-}
-
+.weeFoodInfo,
 .motatosInfo {
     width: 700px;
     box-sizing: border-box;
     letter-spacing: 2px;
     line-height: 1.4;
+    text-align: left;
+    padding-left: 1.5%;
 }
 
 .weeFoodInfo {
-    width: 700px;
-    box-sizing: border-box;
-    letter-spacing: 2px;
-    line-height: 1.4;
-}
-
-.motatosInfo {
-    text-align: left;
-    border-left: 1px solid black;
-}
-
-.weeFoodInfo {
-    text-align: left;
     border-right: 1px solid black;
+}
+
+.motatosInfo {
+    border-left: 1px solid black;
 }
 
 .logo2 img,
