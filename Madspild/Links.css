@@ -1,4 +1,3 @@
-.grid,
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -24,7 +23,7 @@
 .reklame {
     display: grid;
     text-align: center;
-    width: 700px;
+    width: 50%;
     height: 100px;
     position: relative;
 }
@@ -45,6 +44,8 @@
 
 .motatosInfo {
     border-left: 1px solid black;
+
+
 }
 
 .logo2 img,
