@@ -115,52 +115,72 @@
     width: 700px;
     margin: 5px;
 }
+.quiz {
 
-.donerInfoTekst {
-    font-family: Oswald, sans-serif;
-    text-align: left;
-    line-height: 2;
 }
 
-.donerDoner {
-    width: 700px;
-    margin: 5px;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    background-color: darkolivegreen;
-    border-radius: 15px;
+.Tillykke{
+    display: grid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-image: url("../Img/money.webp");
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    color: gold;
+    text-shadow: 0 3px 4px rgba(0,0,0,0.8);
+
+}
+.Tillykke img{
+    width: 100%;
+    object-fit: cover;
 }
 
-.donerDonerTekst {
-    font-family: Oswald, sans-serif;
-    text-align: left;
-    margin: 10px;
-}
+    .PhotoGrid {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 200px;
+        grid-gap: 5px;
+        grid-auto-flow: dense;
+        margin-bottom: 10px;
+    }
 
-.donerKnap {
-    text-align: right;
-    margin-top: 30px;
-}
+    .PhotoGrid img, .PhotoGrid video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
-.donerKnap button {
-    font-size: 25px;
-    padding: 15px 50px;
-    border-radius: 10px;
-    cursor: pointer;
-}
+    .horizontal {
+        grid-column: span 2;
+    }
 
-.donerKnap a {
-    text-decoration: none;
-    color: black;
-}
+    .vertical {
+        grid-row: span 2;
+    }
 
-.donerGraph {
-    position: absolute;
-    top: 22vw;
-    right: 1vh;
-}
+    .big {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .logostribe {
+        display: flex;
+        gap: 10px;
+    }
+
+    .logostribe img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .fedoverskrift {
+        font-size: 20px;
+        font-weight: bold;
+    }
 
 .donerGraph img {
     width: 700px;
@@ -276,3 +296,4 @@ body {
     transform: scale(1.1);
 }
 body{background-color: yellowgreen;}
+
