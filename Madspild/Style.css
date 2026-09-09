@@ -71,6 +71,7 @@
     height: 5vh;
     width: 97vw;
     border-radius: 5px;
+    background-color: rgba(85, 107, 47, 0.2);
 }
 
 .footerText {
