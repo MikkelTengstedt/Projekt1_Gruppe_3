@@ -1,9 +1,9 @@
 .quiz {
-background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.4);
     margin: 5% 10%;
     padding: 2% 7%;
     border-radius: 3cm;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Question {
     font-family: Oswald, sans-serif;
@@ -15,7 +15,7 @@ background-color: darkolivegreen;
     margin-bottom: 5px;
 }
 .QuestionText {
-    font-family: 'Oswald', sans-serif;
+    font-family: Oswald, sans-serif;
     color: white;
     text-align: left;
     font-size: 25px;
