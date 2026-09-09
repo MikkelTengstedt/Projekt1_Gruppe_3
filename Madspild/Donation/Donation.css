@@ -45,13 +45,14 @@
 
 .donerGraph {
     position: absolute;
-    bottom: 0vw;
-    left: 0vh;
+    bottom: 0;
+    left: 0;
 }
 
 .donerGraph img {
-    max-width: 700px;
-    min-height: 250px;
+    width: min(700px, 100vw);
+    height: auto;
+    display: block;
 }
 
 body {
