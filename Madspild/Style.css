@@ -135,11 +135,12 @@
 }
 
     .EventText {
+        background-color: gray;
         color: white;
         padding:0 15px 0 15px;
 
     }
- 
+
     .EventLinkText {
         text-align: center;
         position: absolute;
@@ -153,38 +154,86 @@
 
 }
 
-.OmOs {
+.Tillykke{
+    background-color: gold;
+
+}
+.OmOs{
     text-align: center;
-    width: 1080px;
-    height: 500px;
     background-color: yellowgreen;
-    padding-left: 10px;
-
+}
+.MarginSection{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: darkolivegreen;
+    padding: 10px;
+}
+.HvemErVi{
+    font-weight: bold;
+    font-size: 50px;
+}
+.FoodLovers{
 }
 
-.FNVerdensmål {
-    text-align: center;
-    width: 600px;
-    height: 70px;
-    background-color: wheat;
-
+.VisionMission{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    grid-column-gap: min(5px);
+    align-items: start;
 }
 
-.Mission {
-    text-align: center;
-    width: 600px;
-    height: 70px;
-    background-color: wheat;
+.FNVerdensmål{
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    min-height: 70px;
+    width: 300px;
+    padding: 10px;
+    background-color: darkolivegreen;}
+.FNVerdensmål:hover{background-color: gold;}
+.FNVerdensmål > * {margin: 0}
+.FNVerdensmålHide {display: none; font-size:25px}
+.FNVerdensmålText { display: block; font-size: 30px; font-weight: bold; text-align: center}
+.FNVerdensmål:hover .FNVerdensmålText { display: none; }
+.FNVerdensmål:hover .FNVerdensmålHide { display: block; }
 
-}
 
-.Vision {
-    text-align: center;
-    width: 600px;
-    height: 70px;
-    background-color: wheat;
+.Mission{
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    min-height: 70px;
+    width: 300px;
+    padding: 10px;
+    background-color: darkolivegreen;}
+.Mission:hover{background-color: gold;}
+.Mission > * {margin: 0}
+.MissionHide {display: none; font-size:25px}
+.MissionText { display: block; font-size: 30px; font-weight: bold; text-align: center}
+.Mission:hover .MissionText { display: none; }
+.Mission:hover .MissionHide { display: block; }
 
-}
+.Vision{
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    justify-items: center;
+    align-items: center;
+    min-height: 70px;
+    width: 300px;
+    padding: 10px;
+    background-color: darkolivegreen;}
+.Vision:hover{background-color: gold;}
+.Vision > * {margin: 0}
+.VisionHide {display: none; font-size:25px;}
+.VisionText { display: block; font-size: 30px; font-weight: bold; text-align: center}
+.Vision:hover .VisionText { display: none; }
+.Vision:hover .VisionHide { display: block; }
 
 .gridKontaktOs {
     display: grid;
@@ -471,3 +520,4 @@ body {
     color: white;
     transform: scale(1.1);
 }
+body{background-color: yellowgreen;}
