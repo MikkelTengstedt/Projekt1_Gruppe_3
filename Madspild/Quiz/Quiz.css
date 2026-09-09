@@ -1,0 +1,54 @@
+.quiz {
+background-color: darkolivegreen;
+    margin: 5% 10%;
+    padding: 2% 7%;
+    border-radius: 3cm;
+
+}
+.Question {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
+    color: rgb(227, 187, 112);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.QuestionText {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 0;
+}
+.QuestionForm {
+    margin-left: 10%;
+    font-family: Oswald, sans-serif;
+    font: bold;
+    font-size: larger;
+    margin-bottom: 5%;
+    row-gap: 100px;
+}
+.NextQuestion{
+text-align: right;
+}
+
+
+
+.Tillykke{
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 10px;
+    background-image: url("../Img/money.webp");
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    color: gold;
+    text-shadow: 0 3px 4px rgba(0,0,0,0.8);
+
+}
+.Tillykke img{
+    width: 100%;
+    object-fit: cover;
+}

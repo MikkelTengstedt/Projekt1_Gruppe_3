@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="Quiz.css">
     <title>DMM - Spørgsmål 2</title>
 </head>
 <body>
@@ -32,21 +33,21 @@
 <main>
     <section>
         <div class="quiz">
-        <p>Spørgsmål 2 af 10</p>
-        <h2>Hvilken del af værdikæden står for det største madspild i Danmark?</h2>
-        <form>
+        <p class="Question">Spørgsmål 2 af 10</p><br>
+        <h2 class="QuestionText">Hvilken del af værdikæden står for det største madspild i Danmark?</h2>
+        <form class="QuestionForm">
             <input type="radio" id="q2_svar1" name="quiz2" value="Detailhandlen">
-            <label for="q2_svar1">Detailhandlen</label><br>
+            <label for="q2_svar1">Detailhandlen</label><br><br>
             <input type="radio" id="q2_svar2" name="quiz2" value="Fødevareindustrien (forarbejdning og fremstilling)">
-            <label for="q2_svar2">Fødevareindustrien (forarbejdning og fremstilling)</label><br>
+            <label for="q2_svar2">Fødevareindustrien (forarbejdning og fremstilling)</label><br><br>
             <input type="radio" id="q2_svar3" name="quiz2" value="Husholdningerne">
-            <label for="q2_svar3">Husholdningerne</label><br>
+            <label for="q2_svar3">Husholdningerne</label><br><br>
             <input type="radio" id="q2_svar4" name="quiz2" value="Primærproduktionen (landbrug)">
-            <label for="q2_svar4">Primærproduktionen (landbrug)</label><br>
+            <label for="q2_svar4">Primærproduktionen (landbrug)</label><br><br>
         </form>
 
-        <a href="Question1.html">FORRIGE</a>
-        <a href="Question3.html">Næste Spørgsmål</a>
+        <div><button><a href="Question1.html">FORRIGE</a></button></div>
+            <div class="NextQuestion"><button><a href="Question3.html">Næste Spørgsmål</a></button></div>
         </div>
     </section>
 
