@@ -1,6 +1,7 @@
 .Menu {
     overflow: hidden;
     background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.2);
     border-radius:5px;
     height:10vh;
     width:99.5vw;
