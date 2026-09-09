@@ -36,6 +36,7 @@
     line-height: 1.4;
     text-align: left;
     padding-left: 1.5%;
+    font-family: Oswald, sans-serif;
 }
 
 .weeFoodInfo {
@@ -96,7 +97,7 @@
     100% {
         opacity: 1;
     }
-    
+
 }
 
 @keyframes img-2 {
