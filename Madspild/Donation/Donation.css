@@ -18,6 +18,7 @@
     bottom:0;
     right:0;
     background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.4);
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
