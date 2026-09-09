@@ -50,7 +50,7 @@
 }
 
 .donerGraph img {
-    width: min(700px, 100vw);
+    width: min(500px, 100vw);
     height: auto;
     display: block;
 }
