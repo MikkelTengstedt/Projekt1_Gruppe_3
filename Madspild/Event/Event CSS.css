@@ -17,12 +17,14 @@
     min-height: 600px;
     position: relative;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid black;
 }
 
 .EventPicture {
     width: 100%;
     height: 70%;
     border-radius: 15px 15px 0 0;
+    border-bottom: 1px solid black;
 
 }
 
