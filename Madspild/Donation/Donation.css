@@ -38,11 +38,13 @@
     padding: 15px 50px;
     border-radius: 10px;
     cursor: pointer;
+    font-family: Oswald, sans-serif;
 }
 
 .donerKnap a {
     text-decoration: none;
     color: black;
+    font-family: Oswald, sans-serif;
 }
 
 .donerGraph {
