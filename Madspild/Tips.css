@@ -63,3 +63,32 @@
     margin-right: 2%;
     margin-bottom: 10%;
 }
+
+.listeAfTipsTilBruger {
+    margin-top: 30%;
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    gap: 25px;
+    justify-items: center;
+}
+
+.listeAfTipsTilBruger a {
+    display: block;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 50%;
+}
+
+.listeAfTipsTilBruger a:hover {
+    background-color: gold;
+    transform: scale(1.1);
+}
