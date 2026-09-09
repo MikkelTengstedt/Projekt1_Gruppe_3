@@ -1,17 +1,35 @@
+
+
 .OmOs {
     text-align: center;
     background-color: yellowgreen;
     font-family: Oswald, sans-serif;
+    margin: 6%;
+}
+
+.OmOsIndhold{
+    background-color: rgba(85, 107, 47, 0.2);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
+
 }
 
 .MarginSection {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.2);
     padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+
 }
 
 .HvemErVi {
+
     font-weight: bold;
     font-size: 50px;
 }
@@ -37,12 +55,14 @@
     width: 300px;
     padding: 10px;
     background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.4);
     transition: 0.3s;
 }
 
 .FNVerdensmål:hover, .Vision:hover, .Mission:hover {
     background-color: gold;
-    transform: scale(1.1)
+    background-color: rgba(255, 215, 0, 0.6);
+    transform: scale(1.1);
 }
 
 .FNVerdensmål > *, .Vision > *, .Mission > * {
