@@ -1,21 +1,25 @@
-.OmOs{
+.OmOs {
     text-align: center;
     background-color: yellowgreen;
+    font-family: Oswald, sans-serif;
 }
-.MarginSection{
+
+.MarginSection {
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: darkolivegreen;
     padding: 10px;
 }
-.HvemErVi{
+
+.HvemErVi {
     font-weight: bold;
     font-size: 50px;
 }
-.FoodLovers{
+
+.FoodLovers {
 }
 
-.VisionMission{
+.VisionMission {
     display: grid;
     grid-template-columns: auto auto auto;
     justify-items: center;
@@ -23,7 +27,7 @@
     align-items: start;
 }
 
-.FNVerdensmål, .Vision, .Mission{
+.FNVerdensmål, .Vision, .Mission {
     display: grid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
@@ -35,14 +39,42 @@
     background-color: darkolivegreen;
     transition: 0.3s;
 }
-.FNVerdensmål:hover, .Vision:hover, .Mission:hover{background-color: gold; transform: scale(1.1)}
-.FNVerdensmål > *, .Vision > *, .Mission > * {margin: 0}
-.VisionHide, .MissionHide {display: none; font-size:25px}
-.FNVerdensmålHide {display: none; font-size:20px}
-.FNVerdensmålText, .VisionText, .MissionText {display: block; font-size: 30px; font-weight: bold; text-align: center}
-.FNVerdensmål:hover .FNVerdensmålText, .Vision:hover .VisionText, .Mission:hover .MissionText { display: none; }
-.FNVerdensmål:hover .FNVerdensmålHide, .Vision:hover .VisionHide, .Mission:hover .MissionHide { display: block; }
-.FNVerdensmålPic img, .VisionPic img, .MissionPic img{
+
+.FNVerdensmål:hover, .Vision:hover, .Mission:hover {
+    background-color: gold;
+    transform: scale(1.1)
+}
+
+.FNVerdensmål > *, .Vision > *, .Mission > * {
+    margin: 0
+}
+
+.VisionHide, .MissionHide {
+    display: none;
+    font-size: 25px
+}
+
+.FNVerdensmålHide {
+    display: none;
+    font-size: 20px
+}
+
+.FNVerdensmålText, .VisionText, .MissionText {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center
+}
+
+.FNVerdensmål:hover .FNVerdensmålText, .Vision:hover .VisionText, .Mission:hover .MissionText {
+    display: none;
+}
+
+.FNVerdensmål:hover .FNVerdensmålHide, .Vision:hover .VisionHide, .Mission:hover .MissionHide {
+    display: block;
+}
+
+.FNVerdensmålPic img, .VisionPic img, .MissionPic img {
     display: grid;
     margin-top: 50px;
     border-radius: 5px;
@@ -51,60 +83,3 @@
     align-items: center;
     min-height: 70px;
 }
-
-/*.Mission{*/
-/*    display: grid;*/
-/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-/*    border-radius: 5px;*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-/*    min-height: 70px;*/
-/*    width: 300px;*/
-/*    padding: 10px;*/
-/*    background-color: darkolivegreen;*/
-/*    transition: 0.3s;*/
-/*}*/
-/*.Mission:hover{background-color: gold;}*/
-/*.Mission > * {margin: 0}*/
-/*.MissionHide {display: none; font-size:25px}*/
-/*.MissionText { display: block; font-size: 30px; font-weight: bold; text-align: center}*/
-/*.Mission:hover .MissionText { display: none; }*/
-/*.Mission:hover .MissionHide { display: block; }*/
-
-/*.MissionPic img{*/
-/*    display: grid;*/
-/*    margin-top: 40px;*/
-/*    border-radius: 5px;*/
-/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-/*    min-height: 70px;*/
-/*}*/
-
-/*.Vision, .Mission, .FNVerdensmål{*/
-/*    display: grid;*/
-/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-/*    border-radius: 5px;*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-/*    min-height: 70px;*/
-/*    width: 300px;*/
-/*    padding: 10px;*/
-/*    background-color: darkolivegreen;*/
-/*    transition: 0.3s;}*/
-/*.Vision:hover{background-color: gold;}*/
-/*.Vision > * {margin: 0}*/
-/*.VisionHide {display: none; font-size:25px;}*/
-/*.VisionText { display: block; font-size: 30px; font-weight: bold; text-align: center}*/
-/*.Vision:hover .VisionText { display: none; }*/
-/*.Vision:hover .VisionHide { display: block; }*/
-
-/*.VisionPic img{*/
-/*    display: grid;*/
-/*    margin-top: 40px;*/
-/*    border-radius: 5px;*/
-/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-/*    justify-items: center;*/
-/*    align-items: center;*/
-/*    min-height: 70px;*/
-/*}*/
