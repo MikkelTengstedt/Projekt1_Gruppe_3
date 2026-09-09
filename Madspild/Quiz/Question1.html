@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DMM - Spørgsmål 1</title>
     <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="Quiz.css">
 </head>
 <body>
 <header>
@@ -32,28 +33,24 @@
 <main>
     <section>
         <div class="quiz">
-        <p>Spørgsmål 1 af 10</p>
-        <h2>Hvor meget madspild (mad der kunne have været spist) smides der ud i Danmark om året?</h2>
-        <form>
+        <p class="Question">Spørgsmål 1 af 10</p><br>
+        <h2 class="QuestionText">Hvor meget madspild (mad der kunne have været spist) smides der ud i Danmark om året?</h2>
+        <form class="QuestionForm">
             <input type="radio" id="q1_svar1" name="quiz1" value="Ca. 150.000 ton">
-            <label for="q1_svar1">Ca. 150.000 ton</label><br>
+            <label for="q1_svar1">Ca. 150.000 ton</label><br><br>
             <input type="radio" id="q1_svar2" name="quiz1" value="Ca. 430.000 ton">
-            <label for="q1_svar2">Ca. 430.000 ton</label><br>
+            <label for="q1_svar2">Ca. 430.000 ton</label><br><br>
             <input type="radio" id="q1_svar3" name="quiz1" value="Ca. 873.000 ton">
-            <label for="q1_svar3">Ca. 873.000 ton</label><br>
+            <label for="q1_svar3">Ca. 873.000 ton</label><br><br>
             <input type="radio" id="q1_svar4" name="quiz1" value="Ca. 3,2 mio. ton">
-            <label for="q1_svar4">Ca. 3,2 mio. ton</label><br>
+            <label for="q1_svar4">Ca. 3,2 mio. ton</label><br><br>
         </form>
-
-        <a href="Question2.html">Næste Spørgsmål</a>
+        <div class="NextQuestion"><button><a href="Question2.html">Næste Spørgsmål</a></button></div>
         </div>
     </section>
-
-</main>
-
-
-<footer>
-    <p>&copy; Gruppe 3</p>
+    <footer>
+        <p>&copy; Gruppe 3</p>
 </footer>
+</main>
 </body>
 </html>

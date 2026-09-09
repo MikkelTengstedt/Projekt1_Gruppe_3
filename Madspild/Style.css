@@ -111,28 +111,6 @@
     font-size: 20px;
 }
 
-.quiz {
-
-}
-
-.Tillykke{
-    display: grid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-    margin-top: 10px;
-    background-image: url("../Img/money.webp");
-    background-position: center;
-    background-size: cover;
-    place-items: center;
-    color: gold;
-    text-shadow: 0 3px 4px rgba(0,0,0,0.8);
-
-}
-.Tillykke img{
-    width: 100%;
-    object-fit: cover;
-}
-
 .donerInfo {
     width: 700px;
     margin: 5px;
@@ -216,16 +194,14 @@ body {
     padding: 20px;
     border-radius: 10px;
     border-style: groove;
-
-
 }
 
 .ForumGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-gap: 20px;
+    grid-gap: 1%;
     width: 100%;
-    margin-left: 5vw;
+    margin-left: 4%;
 }
 .PhotoGrid{
     margin-top: 10px;
