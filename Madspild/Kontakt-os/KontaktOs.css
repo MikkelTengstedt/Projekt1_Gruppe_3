@@ -10,6 +10,7 @@
 .KontaktOsBox {
     margin-top: 50px;
     background-color: darkolivegreen;
+    background-color: rgba(85, 107, 47, 0.4);
     width: 100%;
     max-width: 500px;
     min-height: 600px;
