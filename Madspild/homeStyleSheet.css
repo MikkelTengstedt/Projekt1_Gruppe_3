@@ -37,6 +37,8 @@
     width: 3vw;
     height: auto;
     float: left;
+    bottom:0;
+    left:0;
 }
 
 .linkBoxText {
