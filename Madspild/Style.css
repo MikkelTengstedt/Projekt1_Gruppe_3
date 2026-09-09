@@ -117,369 +117,53 @@
 }
 
 .Tillykke{
-    background-color: gold;
-
-}
-.OmOs{
-    text-align: center;
-    background-color: yellowgreen;
-}
-.MarginSection{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: darkolivegreen;
-    padding: 10px;
-}
-.HvemErVi{
-    font-weight: bold;
-    font-size: 50px;
-}
-.FoodLovers{
-}
-
-.VisionMission{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-    grid-column-gap: min(5px);
-    align-items: start;
-}
-
-.FNVerdensmål{
     display: grid;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-    justify-items: center;
-    align-items: center;
-    min-height: 70px;
-    width: 300px;
-    padding: 10px;
-    background-color: darkolivegreen;}
-.FNVerdensmål:hover{background-color: gold;}
-.FNVerdensmål > * {margin: 0}
-.FNVerdensmålHide {display: none; font-size:25px}
-.FNVerdensmålText { display: block; font-size: 30px; font-weight: bold; text-align: center}
-.FNVerdensmål:hover .FNVerdensmålText { display: none; }
-.FNVerdensmål:hover .FNVerdensmålHide { display: block; }
-
-
-.Mission{
-    display: grid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-    justify-items: center;
-    align-items: center;
-    min-height: 70px;
-    width: 300px;
-    padding: 10px;
-    background-color: darkolivegreen;}
-.Mission:hover{background-color: gold;}
-.Mission > * {margin: 0}
-.MissionHide {display: none; font-size:25px}
-.MissionText { display: block; font-size: 30px; font-weight: bold; text-align: center}
-.Mission:hover .MissionText { display: none; }
-.Mission:hover .MissionHide { display: block; }
-
-.Vision{
-    display: grid;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 5px;
-    justify-items: center;
-    align-items: center;
-    min-height: 70px;
-    width: 300px;
-    padding: 10px;
-    background-color: darkolivegreen;}
-.Vision:hover{background-color: gold;}
-.Vision > * {margin: 0}
-.VisionHide {display: none; font-size:25px;}
-.VisionText { display: block; font-size: 30px; font-weight: bold; text-align: center}
-.Vision:hover .VisionText { display: none; }
-.Vision:hover .VisionHide { display: block; }
-
-.gridKontaktOs {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-}
-
-.KontaktOsBox {
-    margin-top: 50px;
-    background-color: darkolivegreen;
-    width: 500px;
-    height: 600px;
-    border: 1px solid black;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.KontaktOsPicture {
-    width: 275px;
-    height: 450px;
-    display: block;
-    margin: 15px auto 0;
-    border-radius: 200px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-}
-
-.KontaktOsName {
-    font-family: Oswald, sans-serif;
-    font-weight: 700;
-    color: rgb(227, 187, 112);
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-.KontaktOsJob {
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 0;
-}
-
-.KontaktOsText {
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    text-align: center;
-    font-size: 12px;
-}
-
-.donerInfo {
-    width: 700px;
-    margin: 5px;
-}
-
-.donerInfoTekst {
-    font-family: Oswald, sans-serif;
-    text-align: left;
-    line-height: 2;
-}
-
-.donerDoner {
-    width: 700px;
-    margin: 5px;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
-    background-color: darkolivegreen;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.donerDonerTekst {
-    font-family: Oswald, sans-serif;
-    text-align: left;
-    margin: 10px;
-}
-
-.donerKnap {
-    text-align: right;
-    margin-top: 30px;
-}
-
-.donerKnap button {
-    font-size: 25px;
-    padding: 15px 50px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.donerKnap a {
-    text-decoration: none;
-    color: black;
-}
-
-.donerGraph {
-    position: absolute;
-    top: 362px;
-    right: 7px;
-}
-
-.donerGraph img {
-    width: 700px;
-}
-
-/* yellowgreen hex : 9ACD32FF */
-body {
-    background-color: yellowgreen;
-}
-
-.Forum {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.ForumWriteYourStory{
-    width: 400px;
-    height: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 33vw;
-}
-
-.ForumStory {
-    margin-top: 50px;
-    margin-bottom: 10px;
-    background-color: darkslategray;
-    width: 250px;
-    padding: 20px;
-    border-radius: 10px;
-    border-style: groove;
-
-
-}
-
-.ForumGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-gap: 20px;
-    width: 100%;
-    margin-left: 5vw;
-}
-.PhotoGrid{
     margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-auto-rows: 200px;
-    grid-gap: 5px;
-    grid-auto-flow: dense;
-    margin-bottom: 10px;
+    background-image: url("../Img/money.webp");
+    background-position: center;
+    background-size: cover;
+    place-items: center;
+    color: gold;
+    text-shadow: 0 3px 4px rgba(0,0,0,0.8);
+
 }
-.PhotoGrid img, .PhotoGrid video{
+.Tillykke img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.horizontal{
-    grid-column: span 2;
-}
-.vertical {
-    grid-row: span 2;
-}
-.big{
-    grid-column: span 2;
-    grid-row: span 2;
-}
+    .PhotoGrid {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 200px;
+        grid-gap: 5px;
+        grid-auto-flow: dense;
+        margin-bottom: 10px;
+    }
 
+    .PhotoGrid img, .PhotoGrid video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
-.tipsGrid {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-items: center;
-    margin: 20px auto;
-    position: relative;
-}
+    .horizontal {
+        grid-column: span 2;
+    }
 
-.tipsGrid > div{
-    background-color: darkolivegreen;
-    width: 80%;
-    height: 620px;
-    text-align: center;
-    position: relative;
-    border: 1px solid black;
-    box-sizing: border-box;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+    .vertical {
+        grid-row: span 2;
+    }
 
-.tips3,
-.tips2 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
+    .big {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
 
-.tips2test {
-    width: 100%;
-    height: 10%;
-    text-align: center;
-    background-color: gray;
-    position: absolute;
-    box-sizing: border-box;
-    border-radius: 5px 5px 0 0;
-    border-bottom: 1px solid black;
-}
-
-.listeAfTips {
-    margin-top: 17%;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10%;
-}
-
-.tipsGrid,
-.diagram p,
-.listeAfTips > p{
-    text-align: left;
-    letter-spacing: 2px;
-    line-height: 1.4;
-
-}
-
-.diagram img {
-    margin-top: 10%;
-    width: 95%;
-    height: 95%;
-    background-color: whitesmoke;
-}
-
-.diagram p {
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10%;
-}
-
-.logostribe {
-    display: flex;
-    gap: 10px;
-}
-
-.logostribe img {
-    width: 150px;
-    height: 100px;
-}
-
-.fedoverskrift {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-.listeAfTipsTilBruger {
-    margin-top: 30%;
-    padding: 20px;
-    display: grid;
-    flex-direction: column;
-    gap: 25px;
-    justify-items: center;
-}
-
-.listeAfTipsTilBruger a {
-    display: block;
-    background-color: whitesmoke;
-    color: black;
-    padding: 20px;
-    border-radius: 5%;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 1px;
-    transition: 0.3s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 50%;
-}
-
-.listeAfTipsTilBruger a:hover {
-    background-color: gray;
-    color: white;
-    transform: scale(1.1);
-}
-body{background-color: yellowgreen;}
+    body {
+        background-color: yellowgreen;
+    }

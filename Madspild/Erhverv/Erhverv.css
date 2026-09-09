@@ -1,0 +1,14 @@
+.logostribe {
+    display: flex;
+    gap: 10px;
+}
+
+.logostribe img {
+    width: 150px;
+    height: 100px;
+}
+
+.fedoverskrift {
+    font-size: 20px;
+    font-weight: bold;
+}

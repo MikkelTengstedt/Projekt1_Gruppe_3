@@ -1,4 +1,3 @@
-.grid,
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -23,21 +22,21 @@
 
 .reklame {
     display: grid;
-    border: 1px solid black;
     text-align: center;
-    width: 850px;
+    width: 50%;
     height: 100px;
-    margin: 20px auto;
+    position: relative;
 }
 
 .weeFoodInfo,
 .motatosInfo {
     width: 700px;
     box-sizing: border-box;
-    letter-spacing: 2px;
+    letter-spacing: 1.2px;
     line-height: 1.4;
     text-align: left;
     padding-left: 1.5%;
+    font-family: Oswald, sans-serif;
 }
 
 .weeFoodInfo {
@@ -46,6 +45,8 @@
 
 .motatosInfo {
     border-left: 1px solid black;
+
+
 }
 
 .logo2 img,
@@ -64,6 +65,57 @@
 
 }
 
+.reklame img:first-child {
+    position: absolute;
+    width: 100%;
+    opacity: 1;
+    height: 100px;
+    animation: img-1 1s infinite;
+}
 
+.reklame img:last-child {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    height: 100px;
+    animation: img-2 1s infinite;
+}
+
+@keyframes img-1 {
+    0% {
+        opacity: 1;
+    }
+    44% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    94% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+
+@keyframes img-2 {
+    0% {
+        opacity: 0;
+    }
+    44% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    94% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 

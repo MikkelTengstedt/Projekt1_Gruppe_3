@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="../Style.css">
+    <link rel="stylesheet" href="Forum.css">
 </head>
 <body>
 <header>
-    <nav class="Menu">
-        <div class="Menu"><img class="Logo" src="https://via.ritzau.dk/data/images/00635/ad075d45-eace-46b4-a1fa-b5040c9641ee.jpg"></div>
-        <div class="Links">
-            <button><a href="HomePage.html">Home</a></button>
-            <button><a href="OmOs.html">Om os</a></button>
-            <button><a href="Event/Events.html">Events</a></button>
-            <button><a href="Kontakt%20Os.html">Kontakt</a></button>
-            <button><a href="QUIZ/Question1.html">Quiz</a></button>
-            <button><a href="Donationer.html">Donér</a></button>
-            <button><a href="Forum.html">Forum</a></button>
-            <button><a href="Links.html">Links</a></button></div>
-    </nav>
+    <div class="Menu">
+        <img class="Logo"
+             src="https://via.ritzau.dk/data/images/00635/ad075d45-eace-46b4-a1fa-b5040c9641ee.jpg">
+        <div class="bigMenu">
+            <a href="../HomePage.html">Home</a>
+            <a href="../Quiz/Question1.html">Quiz</a>
+            <a href="../Donation/Donationer.html">Donér</a>
+            <a href="Forum.html">Forum</a>
+            <a href="../Hvad%20kan%20jeg%20gøre.html">Tips</a>
+            <a href="../Links.html">Links</a>
+            <a href="../Event/Events.html">Events</a>
+        </div>
+        <div class="smallMenu">
+            <a href="../Omos/OmOs.html">Om os</a>
+            <a href="../Kontakt-os/Kontakt%20Os.html">Kontakt</a>
+            <a href="../Erhverv/ErhvervOgOrganisationer.html">For Erhverv</a>
+        </div>
+        <img class="soMePic" src="../../Img/soMeBilleder.png">
+    </div>
 </header>
 <main>
     <section><h1>Del din historie</h1>
@@ -27,10 +35,10 @@
             Store eller små handlinger gør en forskel.
             Inspirér andre ved at dele din historie herunder.</p></section>
     <section class="Forum">
-        <div class="ForumWriteYourStory">Navn:<input><br> <br> Alder:<input>
+        <div class="ForumWriteYourStory">Navn:<input type="text"><br> <br> Alder:<input type="number">
             <textarea placeholder="Skriv din historie her:"rows="7" cols="60"></textarea>
             <br>
-            <div><a href="GuiltTripSite.html">
+            <div><a href="../GuiltTripSite.html">
                 <button>Indsend</button></a></div> </div>
     </section>
     <section class="Forum">

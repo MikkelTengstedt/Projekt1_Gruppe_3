@@ -1,0 +1,35 @@
+.Forum {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: Oswald, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.ForumWriteYourStory {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 33vw;
+}
+
+.ForumStory {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: darkolivegreen;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: groove;
+
+}
+
+.ForumGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 20px;
+    width: 100%;
+    margin-left: 5vw;
+}
