@@ -1,0 +1,87 @@
+.info-home {
+    width: 40vw;
+    height: 90vh;
+    border-style: groove;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+    margin-left: 1%;
+}
+
+.info-text {
+    font-size: 1.7vw;
+    list-style-type: square;
+    padding-bottom: 20vh;
+    letter-spacing: 2px;
+}
+
+.info-text li {
+    margin: 1.8vh 0;
+}
+
+.info-home h1 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2.2vw;
+    border-bottom-style: solid;
+    padding-bottom:1vh;
+}
+
+.linkBox {
+    width: 7vw;
+    height: 6vh;
+    text-align: center;
+    display: flex;
+}
+
+.linkBox img {
+    width: 3vw;
+    height: auto;
+    float: left;
+    padding-top:0.5vh;
+}
+
+.linkBoxText {
+
+    text-align: center;
+    float:left;
+    font-size: 0.6vw;
+    padding-top:1.8vh;
+    text-decoration: none;
+    color: #0b0a23
+}
+
+.gridLinks{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    border-top-style: dashed;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.rightSideHome {
+    position: relative;
+    width: 55.8vw;
+    height: 90vh;
+    margin-right: 1%;
+    float:right;
+}
+
+.rightSideHome img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rightSideHomeText {
+    position:absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.rightSideHomeText a {
+    text-align: center;
+    text-decoration: none;
+    color: #af1a28;
+    font-size: 8vw;
+}
