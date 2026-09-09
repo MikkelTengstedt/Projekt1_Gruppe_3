@@ -135,7 +135,6 @@
 }
 
     .EventText {
-        background-color: gray;
         color: white;
         padding:0 15px 0 15px;
 
@@ -333,8 +332,8 @@
 
 .donerGraph {
     position: absolute;
-    top: 362px;
-    right: 7px;
+    top: 22vw;
+    right: 1vh;
 }
 
 .donerGraph img {
