@@ -58,7 +58,8 @@
     min-height: 70px;
     width: 300px;
     padding: 10px;
-    background-color: darkolivegreen;}
+    background-color: darkolivegreen;
+}
 .Mission:hover{background-color: gold;}
 .Mission > * {margin: 0}
 .MissionHide {display: none; font-size:25px}
